@@ -1,4 +1,4 @@
-package com.example.authentication
+package com.example.authentication.activities.otheractivities
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.authentication.R
 import com.example.authentication.databinding.ActivitySignUpBinding
 import com.google.firebase.auth.FirebaseAuth
 

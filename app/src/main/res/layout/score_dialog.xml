@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="18dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/score_indicator"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            tools:progress="80"
+            app:indicatorSize="110dp"
+            app:trackThickness="8dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="80%"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:id="@+id/score_percentage"
+
+                />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Congratulations! You won the quiz"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/score_title"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8 out of 10 questions are correct"
+        android:gravity="center"
+        android:id="@+id/score_subtitle"/>
+
+    <Button
+        android:id="@+id/finishBtn"
+        android:layout_width="148dp"
+        android:layout_height="74dp"
+        android:text="Play Again"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>

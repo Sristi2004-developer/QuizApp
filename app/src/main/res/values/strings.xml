@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Authentication</string>
+    <string name="app_name">TriviaTime</string>
+    <string-array name="drawer_items">
+        <item>Home</item>
+        <item>Profile</item>
+        <item>Settings</item>
+    </string-array>
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+
+    <string name="question1">Which of the following is not a programming language?</string>
+
 </resources>

@@ -13,13 +13,13 @@
         android:theme="@style/Theme.Authentication"
         tools:targetApi="31">
         <activity
-            android:name=".SignUp"
+            android:name=".activities.otheractivities.SignUp"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".activities.otheractivities.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".Welcome"
+            android:name=".activities.otheractivities.Welcome"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +28,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.otheractivities.QuizActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.otheractivities.MainActivity"
             android:exported="true" />
     </application>
 
